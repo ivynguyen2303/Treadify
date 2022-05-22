@@ -1,0 +1,28 @@
+
+h1 {
+    font-size: 3em;
+    margin: 10px;
+    text-align:center;
+    color: #AECCF2;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+
+body {
+    text-align: center;
+}
+
+.searchbar {
+    height: 300px
+}
+
+.box{
+    width: 500px; 
+    height: 50px;
+    background-color: #D7AEF2;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    color: #000000
+}

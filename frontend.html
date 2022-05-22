@@ -1,0 +1,21 @@
+<html>
+   <head>
+        <title>Treadify</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+   </head>
+   <body style="background-color:#191414;" text="#ffffff">
+        <h1>Treadify</h1>
+        <div>
+             <p>Enter an artist name to get a custom workout playlist along with recommended treadmill speeds!</p>
+        </div>
+        <div class="searchbar">
+            
+            <input style="font-family: Verdana, Geneva, Tahoma, sans-serif;" id="search" type="text" placeholder="Enter Artist...">
+            <button onclick="display()" style = "background-color:#F26D91; font-family: Verdana, Geneva, Tahoma, sans-serif;">Search</button>
+            
+        </div>
+        <script src="./view.js"></script>
+   </body>
+   <div id="view" style="margin:0 auto; background-color: #191414; height:500px; width:500px; overflow:auto; position:relative; top:-225px;"></div>
+</html>
