@@ -1,5 +1,4 @@
 # Incremental Workout Playlist Generator
-![project screenshot](https://cdn.discordapp.com/attachments/977415435077189654/977851720057122847/unknown.png)
 ![Watch the video](https://cdn.discordapp.com/attachments/977415435077189654/977851720057122847/unknown.png)(https://youtu.be/vp-a7NjX-Us)
 
 # Description:
