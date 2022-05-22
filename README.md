@@ -9,5 +9,5 @@ Using this web application is quite straightforward.
 
 Once you download the repo, you then can locally run the file on your computer and input your artist of choice in the search bar.
 
-limitations: in lieu of connecting the application to a domain, we used ngrok; takes a local server and tunnels it to be accessible on other computers. the problem is that everytime the local machine has to restart the server, the link, that is hard coded in view.js, is changed. this is a problem because until we change the link in the file, the program halts in functionality.
+[limitations: in lieu of connecting the application to a domain, we used ngrok; takes a local server and tunnels it to be accessible on other computers. the problem is that everytime the local machine has to restart the server, the link, that is hard coded in view.js, is changed. this is a problem because until we change the link in the file, the program halts in functionality.]
 
