@@ -1,5 +1,5 @@
 # Incremental Workout Playlist Generator
-![Watch the video](https://cdn.discordapp.com/attachments/977415435077189654/977851720057122847/unknown.png)(https://youtu.be/vp-a7NjX-Us | width=200)
+![Watch the video](https://cdn.discordapp.com/attachments/977415435077189654/977851720057122847/unknown.png)(https://youtu.be/vp-a7NjX-Us)
 
 # Description:
 This project is a website that generates a playlist based on the artist the user inputs. We used Javascript to retrieve the data from the backend, HTML/CSS to display the data, and Python/Flask to build the backend. The playlist generator uses the Spotify API to get songs by an artist and recommends a treadmill speed depending on the song's BPM. The  playlist is sorted by the intensity of the BPM.
