@@ -7,9 +7,7 @@ class handler(BaseHTTPRequestHandler):
     
     def do_GET(self):
         
-        self.process_response (
-            status_code = 200,
-            header = ('Content-Type', 'application/json'),
-            data = json.dumps({'pp': 'chicken'}, ensure_ascii = False, indent = 4)
-
-        )
+        self.send_response(200)
+        self.send_header('Content-Type', 'application/json')
+        self.end_headers()
+        self.wfile.write({'gfd': 'gfgfd'}.encode())
