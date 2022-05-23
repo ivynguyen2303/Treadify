@@ -2,7 +2,7 @@
 function display() {
     let input = document.getElementById('search').value
     document.getElementById('view').innerHTML = null
-    fetch("https://6301-169-234-24-177.ngrok.io/generate/" + input)
+    fetch("/api/generate/" + input)
         .then(
             response => response.json()
         )
